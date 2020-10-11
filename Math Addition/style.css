@@ -1,0 +1,60 @@
+body{
+  background:teal;
+}
+h1{
+  text-align: center;
+ padding:20px;
+  color: black;
+}
+#demo{
+    box-sizing:border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: thistle;
+    width: 700px;
+    height: 300px;
+    margin: 50px auto;
+  
+}
+
+#primary, #second{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: bold;
+    width: 125px;
+    height: 125px;
+    box-sizing: border-box;
+}
+
+#primary{
+    border: solid 4px green;
+}
+
+#second{
+    border: solid 4px blue;
+}
+
+#add, #equal{
+    font-weight: bold;
+    font-size: 40px;
+    padding: 5px;
+}
+input{
+    border: solid 2px cyan;
+    width: 150px;
+    height: 30px;
+    padding-left: 25px;
+    font-size: 20px;
+}
+
+button{
+    width: 100px;
+    height: 35px;
+    margin: 5px;
+    background: red;
+    color: white;
+    border: 1px solid lightgrey;
+}
