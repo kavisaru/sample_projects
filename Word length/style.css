@@ -1,0 +1,39 @@
+body{
+  background:teal;
+  margin:60px;
+  font-family:arial,Sans-Serif;
+  text-align: center;
+}
+
+#demo{
+   border-radius:40px;
+    background: tan;
+    width:700px;
+    height:600px;
+    padding-left: 30px;
+    }
+h1{
+ font-size: 40px;
+  margin:50px;
+    color:firebrick;
+    text-transform: uppercase;
+   padding:40px;
+}
+#str{
+  color:indigo;
+  font-size:25px;
+  width:350px;
+  height:100px;
+  margin-left:50px;
+}
+#output{
+  padding:40px;
+}
+#btn h2{
+   color:sienna;
+  font-size:30px;
+  margin-left:50px;
+   }  
+
+
+ 
