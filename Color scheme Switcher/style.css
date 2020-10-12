@@ -1,0 +1,38 @@
+html {
+    margin: 0;
+    background:teal;
+  
+}span {
+    display: block;
+    
+}
+#canvas {
+    margin: 100px auto 100px;
+    width: 80%;
+    height:80%;
+   text-align: center;
+   font-size: 15px;
+}
+
+.button {
+    width: 100px;
+    height: 100px;
+    border: solid black 2px;
+    display: inline-block;
+    border-radius: 50%;
+    
+}
+
+#grey{
+    background: grey;
+}
+
+#thistle{
+    background: thistle;
+}
+#tan{
+    background: tan;
+}
+#steelblue{
+    background: steelblue;
+}
