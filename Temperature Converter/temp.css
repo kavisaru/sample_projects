@@ -1,0 +1,24 @@
+.temperature{
+ 
+ width:700px;
+  height:200px;
+  display:flex;
+  justify-content: center;
+  margin:8rem auto;
+  background:teal;
+}
+.input {
+  margin:50px 2rem;
+  flex:1;
+ 
+  text-align: center;
+}
+.input input{
+  
+  font-size:1rem;
+  padding:1.5rem;
+  text-align:center;
+  margin-bottom:1rem;
+  box-shadow: 2px 2px silver;
+  border:2px solid silver;
+}
