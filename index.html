@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Random Name Generator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h3>Random Name Generator</h3>
+<div id="container">
+<button class="btn1"  id="btn">Generate</button>
+</div>
+
+
+<script>
+const firstnames=["Emma","Justin","Rogue","Emma","Alan","Jennifer","Christein","Selena","Taylor","Zayn"];
+const lastnames=["Malik","Gomez","Watson","Dawson","Bieber","Stuvert","Swift","Lawrence","Walker","Halley"];
+const getRandomNumber=(max)=> Math.floor(Math.random()*max);
+const getRandomName= () =>
+`${firstnames[getRandomNumber(firstnames.length)]} ${lastnames[getRandomNumber(lastnames.length)]}`;
+const setRandomName=() => {
+	document.getElementById('container').innerText=getRandomName();
+}
+document.getElementById('btn').addEventListener('click',setRandomName);
+setRandomName();
+
+</script>
+</body>
+</html>
